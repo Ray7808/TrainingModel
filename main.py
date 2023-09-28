@@ -3,7 +3,7 @@ import albumentations as A
 from albumentations.pytorch import ToTensorV2
 import torch.nn as nn
 import torch.optim as optim
-from ResUNet_v2 import ResUNet
+from ResUNet import ResUNet
 from New_utils import (
     load_checkpoint,
     get_loaders,
